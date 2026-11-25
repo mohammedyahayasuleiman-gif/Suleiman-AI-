@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-navy-canvas: #040918;
+  --color-navy-launcher: #050B1A;
+  --color-navy-surface: #0A1328;
+  --color-navy-elevated: #0E1A35;
+  --color-electric-blue: #2D8CFF;
+  --color-electric-cyan: #52D6FF;
+  --color-electric-ice: #C9F4FF;
+}
+
+@layer base {
+  html,
+  body {
+    background-color: #040918;
+    color: #eef4ff;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@keyframes orb-breathe {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.92;
+  }
+  50% {
+    transform: scale(1.04);
+    opacity: 1;
+  }
+}
+
+@keyframes orb-ring-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.55;
+  }
+  50% {
+    transform: scale(1.06);
+    opacity: 0.85;
+  }
+}
+
+.orb-breathe {
+  animation: orb-breathe 5.5s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+.orb-ring-pulse {
+  animation: orb-ring-pulse 5.5s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orb-breathe,
+  .orb-ring-pulse {
+    animation: none;
+  }
+}

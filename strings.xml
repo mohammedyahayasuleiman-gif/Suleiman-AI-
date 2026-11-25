@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">A Y Suleiman AI</string>
+    <string name="brand_name">A Y SULEIMAN AI</string>
+    <string name="voice_title">Voice Assistant</string>
+    <string name="voice_subtitle">Talk to your assistant and hear it answer.</string>
+    <string name="tap_to_speak">Tap to speak</string>
+    <string name="stop_listening">Stop listening</string>
+    <string name="wake_channel_name">Hey Suleiman Wake Word</string>
+    <string name="wake_notification_title">A Y Suleiman AI is ready</string>
+    <string name="wake_notification_body">Listening locally for wake word: "%1$s"</string>
+    <string name="wake_action_stop">Stop</string>
+    <string name="accessibility_service_description">Optional navigation helper for A Y Suleiman AI (Home, Back, Notifications) only when explicitly enabled. Never reads passwords or app content.</string>
+    <string name="notification_listener_label">A Y Suleiman AI Notification Reader</string>
+</resources>

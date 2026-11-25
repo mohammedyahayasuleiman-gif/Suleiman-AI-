@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DRAFT Nigerian Pidgin translation: needs review by a native speaker. -->
+<resources>
+    <string name="app_name">A Y Suleiman AI</string>
+    <string name="brand_name">A Y SULEIMAN AI</string>
+    <string name="back">Go back</string>
+    <string name="open_settings">Open settings</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_chat">AI Chat</string>
+    <string name="nav_voice_notes">Voice</string>
+    <string name="nav_vision">Vision</string>
+    <string name="nav_memory">Memory</string>
+
+    <string name="home_welcome">Welcome back</string>
+    <string name="home_subtitle">Your private assistant. Everything dey stay for dis phone.</string>
+    <string name="status_ai_not_connected">AI: no connect yet</string>
+    <string name="status_voice_soon">Voice: e dey come soon</string>
+    <string name="orb_description">A Y Suleiman AI glowing orb</string>
+
+    <string name="shortcut_chat">AI Chat</string>
+    <string name="shortcut_voice_assistant">Voice Assistant</string>
+    <string name="shortcut_voice_notes">Voice Notes</string>
+    <string name="shortcut_vision">Camera &amp; Vision</string>
+    <string name="shortcut_memory">Personal Memory</string>
+    <string name="shortcut_tasks">Tasks &amp; Reminders</string>
+    <string name="shortcut_settings">Settings &amp; Privacy</string>
+
+    <string name="badge_coming_soon">E dey come soon</string>
+    <string name="badge_not_connected">No connect yet</string>
+    <string name="badge_local">Dey save for phone</string>
+
+    <string name="coming_soon_note">Dis feature never ready. Di app no ask for any permission and e no dey record or open anything.</string>
+    <string name="planned_heading">Wetin dem plan</string>
+
+    <string name="voice_assistant_desc">Talk to your assistant and hear wetin e go talk back.</string>
+    <string-array name="voice_assistant_planned">
+        <item>Listen to wetin you talk</item>
+        <item>Talk back to you with voice</item>
+        <item>English, Hausa and Nigerian Pidgin</item>
+    </string-array>
+
+    <string name="voice_notes_desc">Record voice notes and change dem to text.</string>
+    <string-array name="voice_notes_planned">
+        <item>Record voice notes</item>
+        <item>Change voice to text</item>
+        <item>Save for Personal Memory (only if you agree)</item>
+    </string-array>
+
+    <string name="vision_desc">Make your assistant see with camera.</string>
+    <string-array name="vision_planned">
+        <item>Camera view</item>
+        <item>Know wetin dey front of am</item>
+        <item>Notice when something move</item>
+        <item>Notice wetin dey near</item>
+    </string-array>
+
+    <string name="tasks_desc">Arrange your daily work and get reminders.</string>
+    <string-array name="tasks_planned">
+        <item>Task lists</item>
+        <item>Reminders</item>
+        <item>Plan your day</item>
+    </string-array>
+
+    <string name="chat_banner_title">AI no connect yet</string>
+    <string name="chat_banner_body">Gemini never set up. Messages wey you type no go go anywhere and we no dey save dem.</string>
+    <string name="chat_empty">Type message to try di chat screen. Answers go start when Gemini connect.</string>
+    <string name="chat_input_hint">Type message</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_notice">No AI connect yet, so no answer dey. Your message no go anywhere.</string>
+
+    <string name="memory_title">Personal Memory</string>
+    <string name="memory_subtitle">Text notes wey dey save for dis phone only.</string>
+    <string name="memory_empty_title">No note yet</string>
+    <string name="memory_empty_body">Tap New note to save wetin you wan remember.</string>
+    <string name="memory_new_note">New note</string>
+    <string name="memory_save_failed">We no fit save notes for dis phone. Free some space and try again.</string>
+    <string name="note_untitled">Note wey no get title</string>
+    <string name="note_new_heading">New note</string>
+    <string name="note_edit_heading">Edit note</string>
+    <string name="note_title_hint">Title</string>
+    <string name="note_body_hint">Write your note</string>
+    <string name="note_save">Save</string>
+    <string name="note_delete">Delete</string>
+    <string name="note_delete_title">Delete dis note?</string>
+    <string name="note_delete_body">You no fit bring am back.</string>
+    <string name="note_cancel">Cancel</string>
+
+    <string name="settings_title">Settings &amp; Privacy</string>
+    <string name="settings_ai_section">AI connection</string>
+    <string name="settings_gemini">Gemini</string>
+    <string name="settings_gemini_status">Never set up</string>
+    <string name="settings_ai_note">We no dey put API key inside di app code. We go add safe way to set am up before we connect Gemini.</string>
+    <string name="settings_language_section">Language</string>
+    <string name="settings_language_supported">English · Hausa · Nigerian Pidgin</string>
+    <string name="settings_language_note">Hausa and Nigerian Pidgin translations na draft. Native speakers still need to check dem.</string>
+    <string name="settings_language_open">Change app language</string>
+    <string name="settings_language_legacy">Di app dey follow your phone language if e dey.</string>
+    <string name="settings_privacy_section">Privacy</string>
+    <string name="settings_privacy_permissions">We no ask for any permission</string>
+    <string name="settings_privacy_permissions_body">No microphone, camera, location or sensor dey work yet.</string>
+    <string name="settings_privacy_storage">Notes dey stay for dis phone</string>
+    <string name="settings_privacy_storage_body">Nothing dey upload. Android cloud backup don off for dis app.</string>
+    <string name="settings_privacy_chat">We no dey save chat</string>
+    <string name="settings_privacy_chat_body">Messages dey clear when you close di app.</string>
+    <string name="settings_about_section">About</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_prototype">Prototype foundation build</string>
+</resources>

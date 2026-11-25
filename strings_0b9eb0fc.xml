@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DRAFT Hausa translation: needs review by a native speaker. -->
+<resources>
+    <string name="app_name">A Y Suleiman AI</string>
+    <string name="brand_name">A Y SULEIMAN AI</string>
+    <string name="back">Koma baya</string>
+    <string name="open_settings">Buɗe saituna</string>
+
+    <string name="nav_home">Gida</string>
+    <string name="nav_chat">Tattaunawa</string>
+    <string name="nav_voice_notes">Murya</string>
+    <string name="nav_vision">Gani</string>
+    <string name="nav_memory">Ƙwaƙwalwa</string>
+
+    <string name="home_welcome">Barka da dawowa</string>
+    <string name="home_subtitle">Mataimakinka na sirri. Komai yana nan a cikin wannan na\'ura.</string>
+    <string name="status_ai_not_connected">AI: ba a haɗa shi ba</string>
+    <string name="status_voice_soon">Murya: nan ba da daɗewa ba</string>
+    <string name="orb_description">Da\'irar haske ta A Y Suleiman AI</string>
+
+    <string name="shortcut_chat">Tattaunawa da AI</string>
+    <string name="shortcut_voice_assistant">Mataimakin Murya</string>
+    <string name="shortcut_voice_notes">Bayanan Murya</string>
+    <string name="shortcut_vision">Kyamara da Gani</string>
+    <string name="shortcut_memory">Ƙwaƙwalwar Kaina</string>
+    <string name="shortcut_tasks">Ayyuka da Tunatarwa</string>
+    <string name="shortcut_settings">Saituna da Sirri</string>
+
+    <string name="badge_coming_soon">Nan ba da daɗewa ba</string>
+    <string name="badge_not_connected">Ba a haɗa ba</string>
+    <string name="badge_local">An ajiye a na\'ura</string>
+
+    <string name="coming_soon_note">Wannan fasalin bai samu ba tukuna. Manhajar ba ta nemi wani izini ba kuma ba a yin rikodi ko shiga wani abu.</string>
+    <string name="planned_heading">Abubuwan da aka tsara</string>
+
+    <string name="voice_assistant_desc">Yi magana da mataimakinka kuma ka ji amsarsa.</string>
+    <string-array name="voice_assistant_planned">
+        <item>Sauraron buƙatu da baki</item>
+        <item>Amsoshi da murya</item>
+        <item>Turanci, Hausa da Pidgin na Najeriya</item>
+    </string-array>
+
+    <string name="voice_notes_desc">Yi rikodin bayanan murya ka mayar da su rubutu.</string>
+    <string-array name="voice_notes_planned">
+        <item>Rikodin bayanan murya</item>
+        <item>Rubuta abin da aka faɗa</item>
+        <item>Ajiyewa a Ƙwaƙwalwar Kaina (da izininka kawai)</item>
+    </string-array>
+
+    <string name="vision_desc">Bari mataimakinka ya gani ta kyamara.</string>
+    <string-array name="vision_planned">
+        <item>Duba ta kyamara</item>
+        <item>Gane abubuwa</item>
+        <item>Gano motsi</item>
+        <item>Gano kusanci</item>
+    </string-array>
+
+    <string name="tasks_desc">Sarrafa ayyukanka na kai da samun tunatarwa.</string>
+    <string-array name="tasks_planned">
+        <item>Jerin ayyuka</item>
+        <item>Tunatarwa</item>
+        <item>Tsara ranar</item>
+    </string-array>
+
+    <string name="chat_banner_title">Ba a haɗa AI ba</string>
+    <string name="chat_banner_body">Ba a saita Gemini ba tukuna. Saƙonnin da ka rubuta ba a aika su ko\'ina kuma ba a ajiye su.</string>
+    <string name="chat_empty">Rubuta saƙo don gwada shafin tattaunawa. Amsoshi za su fara bayan an haɗa Gemini.</string>
+    <string name="chat_input_hint">Rubuta saƙo</string>
+    <string name="chat_send">Aika</string>
+    <string name="chat_notice">Babu AI da aka haɗa tukuna, don haka babu amsa. Ba a aika saƙonka ko\'ina ba.</string>
+
+    <string name="memory_title">Ƙwaƙwalwar Kaina</string>
+    <string name="memory_subtitle">Rubutattun bayanai da ake ajiyewa a wannan na\'ura kawai.</string>
+    <string name="memory_empty_title">Babu bayanai tukuna</string>
+    <string name="memory_empty_body">Danna Sabon bayani don ajiye abin da kake son tunawa.</string>
+    <string name="memory_new_note">Sabon bayani</string>
+    <string name="memory_save_failed">Ba a iya ajiye bayanai a wannan na\'ura ba. Ka samar da sarari ka sake gwadawa.</string>
+    <string name="note_untitled">Bayani marar suna</string>
+    <string name="note_new_heading">Sabon bayani</string>
+    <string name="note_edit_heading">Gyara bayani</string>
+    <string name="note_title_hint">Take</string>
+    <string name="note_body_hint">Rubuta bayaninka</string>
+    <string name="note_save">Ajiye</string>
+    <string name="note_delete">Share</string>
+    <string name="note_delete_title">A share wannan bayanin?</string>
+    <string name="note_delete_body">Ba za a iya dawo da shi ba.</string>
+    <string name="note_cancel">Soke</string>
+
+    <string name="settings_title">Saituna da Sirri</string>
+    <string name="settings_ai_section">Haɗin AI</string>
+    <string name="settings_gemini">Gemini</string>
+    <string name="settings_gemini_status">Ba a saita ba</string>
+    <string name="settings_ai_note">Ba a taɓa ajiye makullan API a cikin lambar manhajar ba. Za a ƙara amintaccen tsarin saiti kafin a haɗa Gemini.</string>
+    <string name="settings_language_section">Harshe</string>
+    <string name="settings_language_supported">Turanci · Hausa · Pidgin na Najeriya</string>
+    <string name="settings_language_note">Fassarorin Hausa da Pidgin na Najeriya na gwaji ne kuma suna buƙatar duba daga masu magana da harsunan.</string>
+    <string name="settings_language_open">Canja harshen manhaja</string>
+    <string name="settings_language_legacy">Manhajar tana bin harshen na\'urarka idan yana nan.</string>
+    <string name="settings_privacy_section">Sirri</string>
+    <string name="settings_privacy_permissions">Ba a nemi wani izini ba</string>
+    <string name="settings_privacy_permissions_body">Ba a amfani da makirufo, kyamara, wuri ko na\'urorin auna tukuna.</string>
+    <string name="settings_privacy_storage">Bayanai suna nan a na\'ura</string>
+    <string name="settings_privacy_storage_body">Ba a loda komai. An kashe ajiyar girgije ta Android don wannan manhaja.</string>
+    <string name="settings_privacy_chat">Ba a ajiye tattaunawa</string>
+    <string name="settings_privacy_chat_body">Ana share saƙonni idan aka rufe manhajar.</string>
+    <string name="settings_about_section">Game da manhaja</string>
+    <string name="settings_version">Sigar %1$s</string>
+    <string name="settings_prototype">Sigar gwaji ta tushe</string>
+</resources>
